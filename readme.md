@@ -24,8 +24,14 @@ Quando tutto funzionerà nuovamente potete pensare di usare quel booleano "done"
  BONUS #2
 Se avete già svolto il bonus precedente, potete gestire il click sui singoli ToDo. Al click invertirete il booleano, passando il ToDo da svolto a pendente.
 --------------------------------------
-esecuzione milestone 1:
+esecuzione milestone 0:
 -creo un'array di stringhe
 -creo una <ul> in HTML
 -ciclo un li con l'utilizzo di v-for
 ------------------------
+milestone 1:
+-aggiungere tag input in pagina con v-model:
+non collego alla lista perchè sennò modifica tutto
+lo collego ad un data separato  
+-aggiungere bottone
+-creare funzione sul bottone che faccia push del dato scritto su input

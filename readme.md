@@ -40,3 +40,18 @@ milestone 2:
 -metto l'icona x nel ciclo del li
 -creo funzione che rimuova il todo relativo all'indice della x 
 --------------------------------
+bonus 1:
+-riscrivere array con oggetti invece che stringhe:
+gli oggetti saranno composti come da es:
+{task:"inserire compito",Done:true/false}
+
+-creare classi per colorare le scritte:
+.pending{
+    color:red
+}
+.done{
+    color:green
+}
+
+-rivedere funzioni correggendo in funzione degli oggetti
+-----------------------

@@ -13,15 +13,21 @@ createApp({
                 "fare esercizi Boolean",
             ],
            //milestone 1:creo data da collegare ad input
-           dataInput:"coap",
+           dataInput:"",
         }
+    }, methods:{
         /* milestone 1:scrivo funzione che al click 
         stampa il dato in console e lo pusha nell'array */
-        
-    }, methods:{
-        fBottone(){
+        fBottoneAggiungi(){
             console.log(this.dataInput)
             this.listaToDo.push(this.dataInput)
+        },
+        /*milestone 2:scrivo funzione che al click 
+        toglie l'indice selezionato */
+        fXToglie(i){
+            this.listaToDo[i]="";
+
         }
+
     }
 }).mount("#app");

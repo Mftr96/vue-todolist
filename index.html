@@ -13,11 +13,13 @@
         <h1>Vue-To do List</h1>
         <ul>
             <!--  milestone 0:inizializzo ciclo v-for -->
-            <li v-for="evento,i in listaToDo">{{listaToDo[i]}}</li>
+            <li v-for="evento,i in listaToDo">{{evento}}
+                <i @click="fXToglie(i)" class="fa-solid fa-x"></i>
+            </li>
         </ul>
         <!-- milestone 1:creo input con dentro v-model al quale gli colego il data in JS -->
         <input v-model="dataInput"  type="text" placeholder="ciao, sono un input">
-        <button @click="fBottone()">cliccami!Sono un bottone!</button>
+        <button @click="fBottoneAggiungi()">cliccami!Sono un bottone!</button>
     </div>
     <script src="./JS/script.js"></script>
 </body>

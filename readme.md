@@ -35,3 +35,8 @@ non collego alla lista perchè sennò modifica tutto
 lo collego ad un data separato  
 -aggiungere bottone
 -creare funzione sul bottone che faccia push del dato scritto su input
+-----------------------------
+milestone 2:
+-metto l'icona x nel ciclo del li
+-creo funzione che rimuova il todo relativo all'indice della x 
+--------------------------------

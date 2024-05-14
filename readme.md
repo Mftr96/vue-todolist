@@ -54,4 +54,5 @@ gli oggetti saranno composti come da es:
 }
 
 -rivedere funzioni correggendo in funzione degli oggetti
+(ricordati di scrivere bene gli oggetti)
 -----------------------
